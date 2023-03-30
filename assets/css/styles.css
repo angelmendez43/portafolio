@@ -1028,7 +1028,7 @@ body.dark-theme {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 390px) {
   .container {
     margin-inline: 1rem;
   }
@@ -1049,6 +1049,17 @@ body.dark-theme {
     width: 200px;
     justify-self: center;
   }
+
+  .home__prefil img {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 340px) {
+  .home__prefil img {
+    width: 400px;
+  }
+
 }
 
 /* For medium devices */
@@ -1084,6 +1095,10 @@ body.dark-theme {
   .projects__container .swiper-button-next {
 
     right: 1rem;
+  }
+
+  .home__prefil img {
+    width: 400px;
   }
 }
 
@@ -1143,6 +1158,10 @@ body.dark-theme {
     justify-content: center;
     column-gap: 8rem;
 
+  }
+
+  .home__prefil img {
+    width: 400px;
   }
 
 }
@@ -1264,7 +1283,7 @@ body.dark-theme {
   }
 
   .home__prefil img {
-    width: 300px;
+    width: 400px;
   }
 
   .home__shape-wawes {

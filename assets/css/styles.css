@@ -326,8 +326,8 @@ body.dark-theme {
   position: relative;
   width: 200px;
   height: 290px;
-  background-color: var(--body-color);
-  border: 2px solid var(--text-color-light);
+  /* background-color: var(--body-color);
+  border: 2px solid var(--text-color-light); */
   justify-self: center;
   border-radius: 6.25rem;
   place-items: center;
@@ -338,12 +338,12 @@ body.dark-theme {
 .home__prefil {
   width: 170px;
   height: 260px;
-  background: var(--gradient-color);
-  border-radius: 5.5rem;
-  overflow: hidden;
-  display: flex;
+  /* background: var(--gradient-color); */
+  /* border-radius: 5.5rem; */
+  /* overflow: hidden;
+  display: flex; */
   justify-content: center;
-  align-items: flex-end;
+  /* align-items: flex-end; */
 }
 
 .home__prefil img {
@@ -418,7 +418,10 @@ body.dark-theme {
 
 /*=============== SKILLS ===============*/
 .skills__container {
-  row-gap: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .skills__title {
@@ -464,7 +467,7 @@ body.dark-theme {
 }
 
 .skills__blob img {
-  width: 40px;
+  width: 80px;
 }
 
 .skills__name {
